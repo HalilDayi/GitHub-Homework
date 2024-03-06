@@ -1,0 +1,44 @@
+clc, clearvars
+%number = 5;
+
+%powerOfNumber = power(2, number)
+%sqrtOfNumber = sqrt(number)
+
+%prompt = 'Enter your input here: ';
+%x = input(prompt)
+%powerOfNumber = power(2, x)
+
+prompt1 = 'Enter string here: ';
+str = input(prompt1, "s")
+lengthOfString = strlength(str);
+prompt2 = sprintf('Length of the string is: %d', lengthOfString);
+disp(prompt2)
+---
+prompt1 = 'Enter number: ';
+number1 = input(prompt1);
+number2 = input(prompt1);
+total = number1 + number2;
+
+txt = sprintf('Total number is: %d', total);
+disp(txt)
+---
+prompt1 = 'Enter number: ';
+
+number1 = input(prompt1);
+number2 = input(prompt1);
+total = number1 + number2;
+
+txt = sprintf('Total number is: %d', total);
+disp(txt)
+---
+homework ?
+%initialValue = 25;
+%expectedValue = 0.25 * initialValue;
+
+%calculateMappingAvailable 	%search
+---
+format long 	%short ve long arasındaki fark
+x = 10+25+360^36+3652354;
+disp(x)
+---
+
